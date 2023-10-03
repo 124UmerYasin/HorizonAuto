@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="graphFilter" id="gTV-IL-0wX" customClass="graphFilter" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="642" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="642" height="109"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vn4-hx-ifz">
+                        <rect key="frame" x="0.0" y="0.0" width="642" height="109"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0vH-8A-XCL">
+                                <rect key="frame" x="8" y="1" width="626" height="108"/>
+                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="1M"/>
+                                    <segment title="3M"/>
+                                    <segment title="6M"/>
+                                    <segment title="1Y"/>
+                                    <segment title="2Y"/>
+                                    <segment title="3Y"/>
+                                    <segment title="All"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" red="0.090196078431372548" green="0.59999999999999998" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="onSegmentValue:" destination="gTV-IL-0wX" eventType="valueChanged" id="Lce-dz-gzb"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0vH-8A-XCL" firstAttribute="leading" secondItem="vn4-hx-ifz" secondAttribute="leading" constant="8" id="IUR-vW-yN6"/>
+                            <constraint firstItem="0vH-8A-XCL" firstAttribute="top" secondItem="vn4-hx-ifz" secondAttribute="top" constant="1" id="cDC-Ga-VPY"/>
+                            <constraint firstAttribute="trailing" secondItem="0vH-8A-XCL" secondAttribute="trailing" constant="8" id="eMz-3v-Xwb"/>
+                            <constraint firstAttribute="bottom" secondItem="0vH-8A-XCL" secondAttribute="bottom" constant="1" id="fyZ-z1-aHL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vn4-hx-ifz" secondAttribute="bottom" id="3Ll-NB-rOg"/>
+                <constraint firstAttribute="trailing" secondItem="vn4-hx-ifz" secondAttribute="trailing" id="9OU-lO-2v9"/>
+                <constraint firstItem="vn4-hx-ifz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Dsd-Pd-vtk"/>
+                <constraint firstItem="vn4-hx-ifz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xrT-MV-0ai"/>
+            </constraints>
+            <size key="customSize" width="642" height="109"/>
+            <connections>
+                <outlet property="segmentcontrol" destination="0vH-8A-XCL" id="8HZ-90-Sn7"/>
+            </connections>
+            <point key="canvasLocation" x="173.91304347826087" y="33.147321428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>

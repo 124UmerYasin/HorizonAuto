@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="optionsCell" rowHeight="74" id="KGk-i7-Jjw" customClass="optionsCell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4H8-cS-Yqd" customClass="MDCOutlinedTextField">
+                        <rect key="frame" x="4" y="8" width="420" height="58"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delMin" translatesAutoresizingMaskIntoConstraints="NO" id="5Az-Jc-N03">
+                        <rect key="frame" x="436" y="25" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Noy-eG-G6o"/>
+                            <constraint firstAttribute="width" constant="24" id="hIW-OP-eiZ"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cus-Gj-J20">
+                        <rect key="frame" x="436" y="25" width="24" height="24"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <connections>
+                            <action selector="onClickDelBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZJg-aX-Z4P"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" name="white"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4H8-cS-Yqd" secondAttribute="bottom" constant="8" id="05q-pT-BFv"/>
+                    <constraint firstItem="Cus-Gj-J20" firstAttribute="width" secondItem="5Az-Jc-N03" secondAttribute="width" id="1UB-ug-tOL"/>
+                    <constraint firstItem="4H8-cS-Yqd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="8I1-T5-vwr"/>
+                    <constraint firstItem="Cus-Gj-J20" firstAttribute="centerX" secondItem="5Az-Jc-N03" secondAttribute="centerX" id="HzF-IB-BgK"/>
+                    <constraint firstItem="5Az-Jc-N03" firstAttribute="leading" secondItem="4H8-cS-Yqd" secondAttribute="trailing" constant="12" id="QlI-Nv-PQQ"/>
+                    <constraint firstAttribute="trailing" secondItem="5Az-Jc-N03" secondAttribute="trailing" id="VPW-YX-J2K"/>
+                    <constraint firstItem="5Az-Jc-N03" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XQU-DR-i9n"/>
+                    <constraint firstItem="Cus-Gj-J20" firstAttribute="centerY" secondItem="5Az-Jc-N03" secondAttribute="centerY" id="hzn-GX-iMk"/>
+                    <constraint firstItem="Cus-Gj-J20" firstAttribute="height" secondItem="5Az-Jc-N03" secondAttribute="height" id="ocY-ZS-s0E"/>
+                    <constraint firstItem="4H8-cS-Yqd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="qmJ-iN-0K2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="delBtn" destination="Cus-Gj-J20" id="utY-L0-g9b"/>
+                <outlet property="delWidth" destination="hIW-OP-eiZ" id="pdR-Y7-Bcb"/>
+                <outlet property="delimage" destination="5Az-Jc-N03" id="KF6-dj-qVI"/>
+                <outlet property="textField" destination="4H8-cS-Yqd" id="N1G-cE-ful"/>
+            </connections>
+            <point key="canvasLocation" x="245.80152671755724" y="30.281690140845072"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delMin" width="13.333333015441895" height="13.333333015441895"/>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

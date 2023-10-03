@@ -1,0 +1,53 @@
+//
+//  screen4.swift
+//  Horizon Auto
+//
+//  Created by Umer Yasin on 16/05/2023.
+//
+
+import UIKit
+
+class screen4: UITableViewCell {
+
+    @IBOutlet weak var v4: UIView!
+    @IBOutlet weak var v1: UIView!
+    
+    @IBOutlet weak var v2: UIView!
+    
+    @IBOutlet weak var v3: UIView!
+    
+    
+    @IBOutlet weak var sellingDealer: UILabel!
+    
+    @IBOutlet weak var listingTimeLine: UILabel!
+    @IBOutlet weak var sellingRightAway: UILabel!
+    @IBOutlet weak var email: UILabel!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+        self.configureShadow2(vi: v1)
+        self.configureShadow2(vi: v2)
+        self.configureShadow2(vi: v3)
+        self.configureShadow2(vi: v4)
+    }
+    func configureShadow2(vi:UIView){
+        vi.layer.cornerRadius = 7
+        vi.layer.shadowRadius = 1
+        vi.layer.shadowOpacity = 0.3
+        vi.layer.shadowOffset = CGSize(width: 0, height: 0)
+        vi.layer.shadowColor = UIColor.black.cgColor
+        vi.layer.masksToBounds = false
+    }
+    
+    func configureCellData(cellData:HomecardetailModelCarDetails){
+        sellingDealer.text = cellData.dealerOrPrivate
+        listingTimeLine.text = cellData.listingTimeline
+        if cellData.listingTimeline == "Immediate" {
+            sellingRightAway.text = "Yes"
+
+        }else{
+            sellingRightAway.text = "No"
+        }
+        email.text = cellData.posterEmail
+    }
+}

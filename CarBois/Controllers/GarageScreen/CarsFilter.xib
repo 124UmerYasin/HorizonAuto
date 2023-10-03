@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarsFilter" id="gTV-IL-0wX" customClass="CarsFilter" customModule="CarBois" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="67"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8L-7V-cXd">
+                        <rect key="frame" x="0.0" y="0.0" width="327" height="67"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your cars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edr-8b-2fK">
+                                <rect key="frame" x="8" y="23" width="76.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVL-fe-X2z">
+                                <rect key="frame" x="180" y="13.5" width="139" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5FU-R9-lWy"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="filter">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Filter Cars      ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="menu" size="14"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="edr-8b-2fK" firstAttribute="leading" secondItem="s8L-7V-cXd" secondAttribute="leading" constant="8" id="5gz-qZ-xnN"/>
+                            <constraint firstItem="vVL-fe-X2z" firstAttribute="centerY" secondItem="edr-8b-2fK" secondAttribute="centerY" id="L9v-7Z-a6v"/>
+                            <constraint firstItem="edr-8b-2fK" firstAttribute="centerY" secondItem="s8L-7V-cXd" secondAttribute="centerY" id="q1T-Ip-jFw"/>
+                            <constraint firstAttribute="trailing" secondItem="vVL-fe-X2z" secondAttribute="trailing" constant="8" id="wZN-PE-Fpb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="s8L-7V-cXd" secondAttribute="trailing" id="KzZ-IN-KSv"/>
+                <constraint firstItem="s8L-7V-cXd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="a5j-RF-4ie"/>
+                <constraint firstItem="s8L-7V-cXd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="o5i-eD-fvA"/>
+                <constraint firstAttribute="bottom" secondItem="s8L-7V-cXd" secondAttribute="bottom" id="vYE-sm-Yhz"/>
+            </constraints>
+            <size key="customSize" width="327" height="67"/>
+            <point key="canvasLocation" x="338.40579710144931" y="158.37053571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="filter" width="26" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "car image place holder.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

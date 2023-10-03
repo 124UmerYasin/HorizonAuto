@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="inter_regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="inter_semi_bold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="featuredCellHome" id="gTV-IL-0wX" customClass="featuredCellHome" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="151"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COH-fb-AuC">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="151"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="plmnbhjkio" translatesAutoresizingMaskIntoConstraints="NO" id="rI3-d9-hxo">
+                                <rect key="frame" x="182" y="16" width="183" height="119"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Porsche 911" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NL0-dT-oQj">
+                                <rect key="frame" x="12" y="12" width="70" height="14.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                <color key="textColor" name="AppNewColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Porsche  |  911  |  992  |  992 Turbo  |  992 Turbo Coupe" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRj-7k-kro">
+                                <rect key="frame" x="12" y="35" width="157" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="peP-Zz-Lt1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="55,000 - 75,000 Miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8K-BH-nR3">
+                                <rect key="frame" x="12" y="90" width="157" height="15"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-hS-GPr">
+                                <rect key="frame" x="12" y="113" width="102" height="27"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="r1O-vj-2CX">
+                                        <rect key="frame" x="0.0" y="0.0" width="15" height="27"/>
+                                        <color key="tintColor" name="grapgGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="1ZQ-MC-Owy"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="2U8-Nf-Icn"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="transmission" translatesAutoresizingMaskIntoConstraints="NO" id="Hmm-Tg-ccA">
+                                        <rect key="frame" x="19" y="0.0" width="15" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="hfU-QW-LQB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="accident" translatesAutoresizingMaskIntoConstraints="NO" id="4Gk-tt-VpZ">
+                                        <rect key="frame" x="38" y="0.0" width="30" height="27"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="c2y-bS-oDx"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="engine" translatesAutoresizingMaskIntoConstraints="NO" id="TsR-mA-RaN">
+                                        <rect key="frame" x="72" y="0.0" width="30" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="S8e-Le-LZz"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rI3-d9-hxo" firstAttribute="leading" secondItem="i8K-BH-nR3" secondAttribute="trailing" constant="24" id="1g0-Qc-vEm"/>
+                            <constraint firstItem="pxh-hS-GPr" firstAttribute="top" secondItem="i8K-BH-nR3" secondAttribute="bottom" constant="8" id="ITe-Gu-PsS"/>
+                            <constraint firstItem="yRj-7k-kro" firstAttribute="top" secondItem="NL0-dT-oQj" secondAttribute="bottom" constant="8" id="MkG-Nx-V1n"/>
+                            <constraint firstItem="rI3-d9-hxo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pxh-hS-GPr" secondAttribute="trailing" constant="8" id="NpN-6a-qDb"/>
+                            <constraint firstItem="yRj-7k-kro" firstAttribute="leading" secondItem="COH-fb-AuC" secondAttribute="leading" constant="12" id="UeE-do-89C"/>
+                            <constraint firstItem="rI3-d9-hxo" firstAttribute="leading" secondItem="yRj-7k-kro" secondAttribute="trailing" constant="24" id="ZF5-qG-Atk"/>
+                            <constraint firstItem="NL0-dT-oQj" firstAttribute="top" secondItem="COH-fb-AuC" secondAttribute="top" constant="12" id="a9W-9j-VZ1"/>
+                            <constraint firstAttribute="trailing" secondItem="rI3-d9-hxo" secondAttribute="trailing" constant="12" id="dUs-j4-ooJ"/>
+                            <constraint firstItem="NL0-dT-oQj" firstAttribute="leading" secondItem="COH-fb-AuC" secondAttribute="leading" constant="12" id="ev6-qR-sVK"/>
+                            <constraint firstItem="i8K-BH-nR3" firstAttribute="top" secondItem="yRj-7k-kro" secondAttribute="bottom" constant="12" id="heU-t9-jaK"/>
+                            <constraint firstItem="pxh-hS-GPr" firstAttribute="leading" secondItem="COH-fb-AuC" secondAttribute="leading" constant="12" id="oII-Eu-D7p"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pxh-hS-GPr" secondAttribute="bottom" constant="4" id="rUE-iX-qbv"/>
+                            <constraint firstItem="i8K-BH-nR3" firstAttribute="leading" secondItem="COH-fb-AuC" secondAttribute="leading" constant="12" id="wBO-7J-Xs6"/>
+                            <constraint firstItem="rI3-d9-hxo" firstAttribute="width" secondItem="COH-fb-AuC" secondAttribute="width" multiplier="0.55" id="xyf-Uw-8fK"/>
+                            <constraint firstItem="rI3-d9-hxo" firstAttribute="top" secondItem="COH-fb-AuC" secondAttribute="top" constant="16" id="z6Z-Gp-aOc"/>
+                            <constraint firstAttribute="bottom" secondItem="rI3-d9-hxo" secondAttribute="bottom" constant="16" id="zdE-l0-Hcs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="COH-fb-AuC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rlz-bk-fwc"/>
+                <constraint firstAttribute="bottom" secondItem="COH-fb-AuC" secondAttribute="bottom" id="Wsx-eU-aIU"/>
+                <constraint firstItem="COH-fb-AuC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kJD-Ln-VkF"/>
+                <constraint firstAttribute="trailing" secondItem="COH-fb-AuC" secondAttribute="trailing" id="rlj-Ht-1jV"/>
+            </constraints>
+            <size key="customSize" width="377" height="151"/>
+            <connections>
+                <outlet property="carDetails" destination="yRj-7k-kro" id="hkT-ht-hUy"/>
+                <outlet property="carImages" destination="rI3-d9-hxo" id="qjo-JT-5CJ"/>
+                <outlet property="carInfoImages" destination="pxh-hS-GPr" id="FV9-FX-ume"/>
+                <outlet property="carName" destination="NL0-dT-oQj" id="uIX-eG-lR3"/>
+                <outlet property="miles" destination="i8K-BH-nR3" id="lbV-0o-155"/>
+            </connections>
+            <point key="canvasLocation" x="171.75572519083968" y="-307.3943661971831"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="accident" width="56" height="26"/>
+        <image name="engine" width="46.333332061767578" height="27"/>
+        <image name="paper" width="26" height="26"/>
+        <image name="plmnbhjkio" width="655" height="341"/>
+        <image name="transmission" width="26" height="26"/>
+        <namedColor name="AppNewColor">
+            <color red="0.039000000804662704" green="0.51800000667572021" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="grapgGreen">
+            <color red="0.090000003576278687" green="0.60000002384185791" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

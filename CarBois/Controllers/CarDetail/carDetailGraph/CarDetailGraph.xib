@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sora_regular.ttf">
+            <string>Sora-Regular</string>
+        </array>
+        <array key="sora_semi_bold.ttf">
+            <string>Sora-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarDetailGraph" id="gTV-IL-0wX" customClass="CarDetailGraph" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="299"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="299"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cZ-U1-wZP" customClass="LineChartView" customModule="Charts">
+                        <rect key="frame" x="0.0" y="12" width="393" height="270"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Q81-qj-QgT">
+                        <rect key="frame" x="8" y="0.0" width="70" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="z0d-pC-lkb">
+                                <rect key="frame" x="0.0" y="0.0" width="18" height="12"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORY-7p-qGQ">
+                                <rect key="frame" x="22" y="0.0" width="48" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" red="0.050980392159999999" green="0.039215686270000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Average"/>
+                                <connections>
+                                    <action selector="graphClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="2XE-se-KKE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="JfI-tJ-dFF"/>
+                            <constraint firstAttribute="width" constant="70" id="nBz-li-kGC"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gbD-Bl-PVY">
+                        <rect key="frame" x="82" y="0.0" width="75.5" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="dots" translatesAutoresizingMaskIntoConstraints="NO" id="jBi-t4-tYf">
+                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                <color key="tintColor" name="grapgGreen"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="0xs-ab-j84"/>
+                                    <constraint firstAttribute="width" constant="12" id="Kjl-2i-UHa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Car" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-fZ-Dte">
+                                <rect key="frame" x="16" y="0.0" width="59.5" height="12"/>
+                                <color key="tintColor" red="0.55294117647058827" green="0.55686274509803924" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="10"/>
+                                <color key="textColor" red="0.55294117647058827" green="0.55686274509803924" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.55294117647058827" green="0.55686274509803924" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="1eR-y0-SmO"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" id="fBG-gF-RZ5"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="OBU-NH-KqE">
+                        <rect key="frame" x="161.5" y="0.0" width="136" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="dots" translatesAutoresizingMaskIntoConstraints="NO" id="Jtf-fb-DVo">
+                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                <color key="tintColor" name="blueDots"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="J20-gM-ePk"/>
+                                    <constraint firstAttribute="height" constant="12" id="tpj-Ns-iD1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar C4 Corvette ZR1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGS-QG-gQP">
+                                <rect key="frame" x="16" y="0.0" width="120" height="12"/>
+                                <color key="tintColor" red="0.55294117649999996" green="0.5568627451" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="10"/>
+                                <color key="textColor" red="0.55294117649999996" green="0.5568627451" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.55294117649999996" green="0.5568627451" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="wBu-DV-oC3"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" id="wOC-Dr-39S"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mileage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-fh-VhF">
+                        <rect key="frame" x="176" y="286" width="41" height="13"/>
+                        <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Ujt-fh-VhF" firstAttribute="top" secondItem="2cZ-U1-wZP" secondAttribute="bottom" constant="4" id="0NO-KJ-KdK"/>
+                <constraint firstItem="2cZ-U1-wZP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6T6-SJ-0iA"/>
+                <constraint firstItem="Ujt-fh-VhF" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="6nH-Cx-1pR"/>
+                <constraint firstItem="OBU-NH-KqE" firstAttribute="leading" secondItem="gbD-Bl-PVY" secondAttribute="trailing" constant="4" id="EuD-og-Muv"/>
+                <constraint firstAttribute="trailing" secondItem="2cZ-U1-wZP" secondAttribute="trailing" id="KHp-LT-B3v"/>
+                <constraint firstItem="2cZ-U1-wZP" firstAttribute="top" secondItem="Q81-qj-QgT" secondAttribute="bottom" id="LKE-a9-x5w"/>
+                <constraint firstAttribute="bottom" secondItem="Ujt-fh-VhF" secondAttribute="bottom" id="LpQ-jC-Z5m"/>
+                <constraint firstItem="Q81-qj-QgT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Tqa-qS-waY"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OBU-NH-KqE" secondAttribute="trailing" id="Uos-zA-4aE"/>
+                <constraint firstItem="gbD-Bl-PVY" firstAttribute="centerY" secondItem="Q81-qj-QgT" secondAttribute="centerY" id="ZYS-qO-6xB"/>
+                <constraint firstItem="Q81-qj-QgT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="acO-9F-54I"/>
+                <constraint firstItem="gbD-Bl-PVY" firstAttribute="leading" secondItem="Q81-qj-QgT" secondAttribute="trailing" constant="4" id="grp-qK-C9a"/>
+                <constraint firstItem="OBU-NH-KqE" firstAttribute="centerY" secondItem="Q81-qj-QgT" secondAttribute="centerY" id="kfz-ki-ckb"/>
+            </constraints>
+            <size key="customSize" width="393" height="299"/>
+            <connections>
+                <outlet property="avgButton" destination="Q81-qj-QgT" id="Cgz-uv-UYX"/>
+                <outlet property="avgButtonWidth" destination="nBz-li-kGC" id="9xR-r9-eTo"/>
+                <outlet property="graphView" destination="2cZ-U1-wZP" id="biC-uH-VNR"/>
+                <outlet property="imageView" destination="z0d-pC-lkb" id="oSb-tr-ixs"/>
+                <outlet property="onClickAverage" destination="ORY-7p-qGQ" id="qDG-p4-SSy"/>
+                <outlet property="similarCarLabel" destination="WGS-QG-gQP" id="3RO-5m-Me3"/>
+            </connections>
+            <point key="canvasLocation" x="359.0625" y="85.035211267605632"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dots" width="12" height="12"/>
+        <image name="tick" width="18" height="18"/>
+        <namedColor name="blueDots">
+            <color red="0.2199999988079071" green="0.63499999046325684" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grapgGreen">
+            <color red="0.090000003576278687" green="0.60000002384185791" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

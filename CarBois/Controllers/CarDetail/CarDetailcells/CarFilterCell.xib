@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sora_regular.ttf">
+            <string>Sora-Regular</string>
+        </array>
+        <array key="sora_semi_bold.ttf">
+            <string>Sora-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarFilterCell" id="gTV-IL-0wX" customClass="CarFilterCell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="457" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="457" height="61"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filter" translatesAutoresizingMaskIntoConstraints="NO" id="lcX-dv-Pl9">
+                        <rect key="frame" x="428" y="18" width="25" height="25"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="82G-Oq-IXs"/>
+                            <constraint firstAttribute="width" constant="25" id="BM5-py-oS3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="live listings:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMJ-8U-IUC">
+                        <rect key="frame" x="0.0" y="18.666666666666668" width="150" height="24.000000000000004"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="L9E-Fa-iPH"/>
+                            <constraint firstAttribute="height" constant="24" id="cxc-lq-Lxv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter listings" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICY-CL-4O7">
+                        <rect key="frame" x="328.66666666666669" y="18.666666666666668" width="91.333333333333314" height="24.000000000000004"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="oeK-Q9-B3G"/>
+                            <constraint firstAttribute="height" constant="24" id="tki-dE-jHw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fn9-bU-g2H">
+                        <rect key="frame" x="330" y="43.666666666666664" width="88.333333333333314" height="1"/>
+                        <color key="backgroundColor" red="0.48627450980392156" green="0.48627450980392156" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="NcT-gA-D0h"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Neo-WK-GZS">
+                        <rect key="frame" x="0.0" y="0.0" width="457" height="43.666666666666664"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <connections>
+                            <action selector="onCLickFilterButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="nGR-bW-RGJ"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Fn9-bU-g2H" firstAttribute="centerX" secondItem="ICY-CL-4O7" secondAttribute="centerX" id="1nc-cJ-T5c"/>
+                <constraint firstItem="lcX-dv-Pl9" firstAttribute="leading" secondItem="ICY-CL-4O7" secondAttribute="trailing" constant="8" symbolic="YES" id="4Yu-ba-i6U"/>
+                <constraint firstItem="Fn9-bU-g2H" firstAttribute="top" secondItem="Neo-WK-GZS" secondAttribute="bottom" id="NMD-0O-0xS"/>
+                <constraint firstItem="Neo-WK-GZS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SMa-se-Yxg"/>
+                <constraint firstAttribute="trailing" secondItem="lcX-dv-Pl9" secondAttribute="trailing" constant="4" id="WVW-Cb-JIa"/>
+                <constraint firstItem="ICY-CL-4O7" firstAttribute="centerY" secondItem="lcX-dv-Pl9" secondAttribute="centerY" id="Z2u-Nt-KWn"/>
+                <constraint firstItem="Neo-WK-GZS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cCV-ds-PQs"/>
+                <constraint firstAttribute="trailing" secondItem="Neo-WK-GZS" secondAttribute="trailing" id="cEn-5o-8fu"/>
+                <constraint firstItem="Fn9-bU-g2H" firstAttribute="width" secondItem="ICY-CL-4O7" secondAttribute="width" multiplier="0.964706" id="kNR-Rv-HBC"/>
+                <constraint firstItem="gMJ-8U-IUC" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="kfY-IF-e0v"/>
+                <constraint firstItem="lcX-dv-Pl9" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="kpk-iV-R2z"/>
+                <constraint firstItem="Fn9-bU-g2H" firstAttribute="top" secondItem="ICY-CL-4O7" secondAttribute="bottom" constant="1" id="o1e-wQ-VWA"/>
+                <constraint firstItem="gMJ-8U-IUC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tIX-o7-yL3"/>
+            </constraints>
+            <size key="customSize" width="457" height="61"/>
+            <connections>
+                <outlet property="filterButton" destination="Neo-WK-GZS" id="BuD-yH-OJ6"/>
+                <outlet property="filterImage" destination="lcX-dv-Pl9" id="fRD-dc-zRN"/>
+                <outlet property="lbl" destination="gMJ-8U-IUC" id="uz3-dM-EEc"/>
+                <outlet property="lineView" destination="Fn9-bU-g2H" id="QDh-0f-boF"/>
+                <outlet property="listingLbl" destination="ICY-CL-4O7" id="m0J-uS-uUv"/>
+            </connections>
+            <point key="canvasLocation" x="121.0144927536232" y="140.29017857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="filter" width="26" height="21"/>
+    </resources>
+</document>

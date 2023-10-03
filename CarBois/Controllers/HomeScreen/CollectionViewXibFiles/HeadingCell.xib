@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadingCell" id="gTV-IL-0wX" customClass="HeadingCell" customModule="CarBois" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="88"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="88"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L01-WG-YJX">
+                        <rect key="frame" x="0.0" y="0.0" width="358" height="88"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Garage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROR-Ka-r1W">
+                                <rect key="frame" x="4" y="34.5" width="84.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ac-eZ-ZF5">
+                                <rect key="frame" x="96.5" y="43.5" width="257.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="chI-Z9-mfV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ac-eZ-ZF5" firstAttribute="centerY" secondItem="ROR-Ka-r1W" secondAttribute="centerY" id="7Lh-E0-t3a"/>
+                            <constraint firstItem="ROR-Ka-r1W" firstAttribute="centerY" secondItem="L01-WG-YJX" secondAttribute="centerY" id="U05-Rl-B9t"/>
+                            <constraint firstAttribute="trailing" secondItem="2ac-eZ-ZF5" secondAttribute="trailing" constant="4" id="esD-mA-JS5"/>
+                            <constraint firstItem="2ac-eZ-ZF5" firstAttribute="leading" secondItem="ROR-Ka-r1W" secondAttribute="trailing" constant="8" id="gCC-xN-VsD"/>
+                            <constraint firstItem="ROR-Ka-r1W" firstAttribute="leading" secondItem="L01-WG-YJX" secondAttribute="leading" constant="4" id="pB6-Mx-MB5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="L01-WG-YJX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="9Ft-f4-382"/>
+                <constraint firstItem="L01-WG-YJX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Qw6-4k-d6d"/>
+                <constraint firstAttribute="trailing" secondItem="L01-WG-YJX" secondAttribute="trailing" id="gea-7E-byg"/>
+                <constraint firstAttribute="bottom" secondItem="L01-WG-YJX" secondAttribute="bottom" id="op6-gz-fme"/>
+            </constraints>
+            <size key="customSize" width="358" height="88"/>
+            <connections>
+                <outlet property="cellLabel" destination="ROR-Ka-r1W" id="OrM-hY-npC"/>
+            </connections>
+            <point key="canvasLocation" x="107.24637681159422" y="16.741071428571427"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="inter_regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="inter_semi_bold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="findCarCell" rowHeight="165" id="KGk-i7-Jjw" customClass="findCarCell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="165"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Porshe  |  911  |  992  |  992 Turbo  |  Turbo Coupe" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD7-xg-aZe">
+                        <rect key="frame" x="12" y="11.999999999999998" width="222" height="29.333333333333329"/>
+                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="55,000 - 55,000 - 55,000 - 55,000 - 55,000 - 55,000 - 55,000 - 55,000 - " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crg-Vy-pAo">
+                        <rect key="frame" x="12" y="53.333333333333336" width="222" height="29.333333333333336"/>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="qHV-L8-7aI">
+                        <rect key="frame" x="12" y="91" width="44" height="20"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transmission" translatesAutoresizingMaskIntoConstraints="NO" id="Os4-9b-mgh">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="mYT-wf-4qq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="AWDR" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-70-aW2">
+                                <rect key="frame" x="24" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="VYJ-Rm-1fU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="7jI-28-cuN"/>
+                        </constraints>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRT-bO-hPB">
+                        <rect key="frame" x="12" y="123" width="222" height="30"/>
+                        <color key="backgroundColor" name="AppNewColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="xfM-B2-bS0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Contact Seller">
+                            <color key="titleColor" name="white"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="onCickBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4QU-LG-gBo"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" name="white"/>
+                <constraints>
+                    <constraint firstItem="GD7-xg-aZe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="2tH-Yd-vK4"/>
+                    <constraint firstItem="KRT-bO-hPB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="78L-CN-b1P"/>
+                    <constraint firstItem="crg-Vy-pAo" firstAttribute="top" secondItem="GD7-xg-aZe" secondAttribute="bottom" constant="12" id="Dsy-PR-gmM"/>
+                    <constraint firstAttribute="trailing" secondItem="crg-Vy-pAo" secondAttribute="trailing" constant="12" id="HoE-78-7dg"/>
+                    <constraint firstItem="crg-Vy-pAo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="K5Q-7V-zgW"/>
+                    <constraint firstAttribute="trailing" secondItem="KRT-bO-hPB" secondAttribute="trailing" constant="12" id="Nat-Wq-yPG"/>
+                    <constraint firstItem="qHV-L8-7aI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="RNt-1s-EFU"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qHV-L8-7aI" secondAttribute="trailing" constant="12" id="Wqk-M5-lla"/>
+                    <constraint firstItem="GD7-xg-aZe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Zzk-ne-nlT"/>
+                    <constraint firstAttribute="bottom" secondItem="KRT-bO-hPB" secondAttribute="bottom" constant="12" id="iS2-pO-H7U"/>
+                    <constraint firstAttribute="trailing" secondItem="GD7-xg-aZe" secondAttribute="trailing" constant="12" id="ljU-0F-YgX"/>
+                    <constraint firstItem="KRT-bO-hPB" firstAttribute="top" secondItem="qHV-L8-7aI" secondAttribute="bottom" constant="12" id="w48-gp-kxa"/>
+                    <constraint firstItem="qHV-L8-7aI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="crg-Vy-pAo" secondAttribute="bottom" constant="4" id="yNy-bU-Hww"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn" destination="KRT-bO-hPB" id="gAL-rk-FVq"/>
+                <outlet property="minMileage" destination="crg-Vy-pAo" id="PTM-PK-1qS"/>
+                <outlet property="nameModelLbl" destination="GD7-xg-aZe" id="2qO-WE-NCZ"/>
+            </connections>
+            <point key="canvasLocation" x="93.129770992366403" y="36.971830985915496"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AWDR" width="140" height="80"/>
+        <image name="transmission" width="26" height="26"/>
+        <namedColor name="AppNewColor">
+            <color red="0.039000000804662704" green="0.51800000667572021" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

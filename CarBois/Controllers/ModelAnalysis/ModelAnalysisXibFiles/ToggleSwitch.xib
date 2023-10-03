@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sora_regular.ttf">
+            <string>Sora-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ToggleSwitch" id="gTV-IL-0wX" customClass="ToggleSwitch" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OM6-eY-nfG">
+                        <rect key="frame" x="0.0" y="83" width="51" height="31"/>
+                        <color key="onTintColor" name="AccentColor"/>
+                        <connections>
+                            <action selector="onClickToggleButton:" destination="gTV-IL-0wX" eventType="valueChanged" id="280-6n-9et"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historic Listings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p79-OE-EdP">
+                        <rect key="frame" x="56.999999999999993" y="91" width="99.333333333333314" height="15.333333333333329"/>
+                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="OM6-eY-nfG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Da3-SC-FWy"/>
+                <constraint firstItem="OM6-eY-nfG" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="OTI-pK-jM8"/>
+                <constraint firstItem="p79-OE-EdP" firstAttribute="centerY" secondItem="OM6-eY-nfG" secondAttribute="centerY" id="czN-Aa-jyv"/>
+                <constraint firstItem="p79-OE-EdP" firstAttribute="leading" secondItem="OM6-eY-nfG" secondAttribute="trailing" constant="8" id="pCl-dn-HAI"/>
+            </constraints>
+            <size key="customSize" width="357" height="163"/>
+            <connections>
+                <outlet property="listingLabels" destination="p79-OE-EdP" id="Xe9-xc-cLY"/>
+                <outlet property="toggleSwitchButton" destination="OM6-eY-nfG" id="GMK-eB-V0h"/>
+            </connections>
+            <point key="canvasLocation" x="194.6564885496183" y="127.11267605633803"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.36500000953674316" green="0.097999997437000275" blue="0.93300002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

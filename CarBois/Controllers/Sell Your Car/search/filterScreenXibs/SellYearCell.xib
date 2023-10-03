@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_semi_bold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SellYearCell" rowHeight="198" id="KGk-i7-Jjw" customClass="SellYearCell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="616" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="616" height="198"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgX-UT-PYC">
+                        <rect key="frame" x="0.0" y="24" width="616" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="DDH-8l-UYG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x3O-yX-HYS">
+                        <rect key="frame" x="4" y="56" width="608" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="e0i-ae-I5U"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dp" translatesAutoresizingMaskIntoConstraints="NO" id="Se3-uj-L8M">
+                        <rect key="frame" x="588" y="72" width="12" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="8SL-dd-zDI"/>
+                            <constraint firstAttribute="height" constant="8" id="bjS-oL-p5J"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYS-Sm-rcS">
+                        <rect key="frame" x="0.0" y="54" width="616" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Z5y-hr-5pN"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <connections>
+                            <action selector="onClickSelectButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zFQ-OZ-9b4"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tgX-UT-PYC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="88Z-eS-g5h"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="x3O-yX-HYS" secondAttribute="bottom" constant="8" id="IO7-qQ-i82"/>
+                    <constraint firstItem="tYS-Sm-rcS" firstAttribute="top" secondItem="tgX-UT-PYC" secondAttribute="bottom" constant="6" id="JGC-Bh-kMW"/>
+                    <constraint firstItem="x3O-yX-HYS" firstAttribute="top" secondItem="tgX-UT-PYC" secondAttribute="bottom" constant="8" id="Z24-Xf-g3j"/>
+                    <constraint firstAttribute="trailing" secondItem="tYS-Sm-rcS" secondAttribute="trailing" id="f6Q-n1-qIo"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="tYS-Sm-rcS" secondAttribute="bottom" constant="8" id="gQ5-86-Eis"/>
+                    <constraint firstItem="tYS-Sm-rcS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hhX-SV-GIe"/>
+                    <constraint firstAttribute="trailing" secondItem="x3O-yX-HYS" secondAttribute="trailing" constant="4" id="k4B-qi-i7Y"/>
+                    <constraint firstItem="tgX-UT-PYC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sSC-qt-yxQ"/>
+                    <constraint firstAttribute="trailing" secondItem="Se3-uj-L8M" secondAttribute="trailing" constant="16" id="tiu-7k-Btx"/>
+                    <constraint firstAttribute="trailing" secondItem="tgX-UT-PYC" secondAttribute="trailing" id="wzs-Xu-fv1"/>
+                    <constraint firstItem="x3O-yX-HYS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="xGQ-H8-KJ1"/>
+                    <constraint firstItem="Se3-uj-L8M" firstAttribute="centerY" secondItem="x3O-yX-HYS" secondAttribute="centerY" id="xYh-zT-leu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="field" destination="x3O-yX-HYS" id="Grl-M3-o5F"/>
+                <outlet property="label" destination="tgX-UT-PYC" id="GN1-aw-PFk"/>
+                <outlet property="selectButton" destination="tYS-Sm-rcS" id="9dE-KR-eSa"/>
+            </connections>
+            <point key="canvasLocation" x="346.56488549618319" y="73.943661971830991"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dp" width="8" height="6"/>
+    </resources>
+</document>

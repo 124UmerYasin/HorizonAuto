@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLName</key>
+			<string>com.horizonauto</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dev-microservices.horizonauto.com</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.245922670738-lrt4k76gj8v1kd1gdfhslfiota5mdoa4</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>CFBundleURLName</key>
+			<string>auth0</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.horizonauto</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>inter_bold.ttf</string>
+		<string>inter_light.ttf</string>
+		<string>inter_medium.ttf</string>
+		<string>inter_regular.ttf</string>
+		<string>inter_semi_bold.ttf</string>
+		<string>poppins_bold.ttf</string>
+		<string>poppins_extra_bold.ttf</string>
+		<string>poppins_medium.ttf</string>
+		<string>poppins_regular.ttf</string>
+		<string>poppins_semi_bold.ttf</string>
+		<string>sora_regular.ttf</string>
+		<string>sora_semi_bold.ttf</string>
+		<string>RobotoMono-Regular.ttf</string>
+	</array>
+</dict>
+</plist>

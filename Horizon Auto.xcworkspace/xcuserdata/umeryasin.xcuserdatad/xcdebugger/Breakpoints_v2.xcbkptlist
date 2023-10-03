@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FC3C538A-2430-4E7D-917C-395A620B8E21"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7ACF17DB-2473-44DD-8E74-7B0CC4C3DFA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/CarDetail/CarDetailcells/ImageAndCarDetailVisual.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "currentIndex(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DA2D0C1-52FA-4991-A398-4237DEDB5D12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/HttpUtility/WebAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "getApiRequest(apiURL:requestModel:onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADC59814-83F9-4376-8A25-FAF434260BAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/HttpUtility/WebAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "postApiRequest(apiURL:requestModel:onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEB75645-93F2-4DF1-A715-03875894000F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1360"
+            endingLineNumber = "1360"
+            landmarkName = "showModelAnalysis()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BEB75645-93F2-4DF1-A715-03875894000F - 2f9eff9fdfd00df7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.HomeCarDetailGraph, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.showModelAnalysis() -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1360"
+                  endingLineNumber = "1360"
+                  offsetFromSymbolStart = "860">
+               </Location>
+               <Location
+                  uuid = "BEB75645-93F2-4DF1-A715-03875894000F - 2f9eff9fdfd00df7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.HomeCarDetailGraph, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.showModelAnalysis() -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1360"
+                  endingLineNumber = "1360"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "106DFA06-4DB9-4882-B2BB-9F8F6F570CDF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1377"
+            endingLineNumber = "1377"
+            landmarkName = "modelPricingDataApi(check:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57FBDD68-D91E-437F-8B4A-58048435022B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1396"
+            endingLineNumber = "1396"
+            landmarkName = "modelPricingDataApi(check:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57FBDD68-D91E-437F-8B4A-58048435022B - c4c4030a27f14af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.ModelPricingDataModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.modelPricingDataApi(check: Swift.Bool) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1396"
+                  endingLineNumber = "1396"
+                  offsetFromSymbolStart = "3036">
+               </Location>
+               <Location
+                  uuid = "57FBDD68-D91E-437F-8B4A-58048435022B - c4c4030a27f14af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.ModelPricingDataModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.modelPricingDataApi(check: Swift.Bool) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1396"
+                  endingLineNumber = "1396"
+                  offsetFromSymbolStart = "3212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFF045DB-30D7-4362-9E75-BB10E4AE7AF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1103"
+            endingLineNumber = "1103"
+            landmarkName = "getCarDetail(carId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26FBAFCE-D930-4FC5-A05C-357E539EF433"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1107"
+            endingLineNumber = "1107"
+            landmarkName = "getCarDetail(carId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFD3737E-BDA0-4F9C-8BE6-52976284CDD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1109"
+            endingLineNumber = "1109"
+            landmarkName = "getCarDetail(carId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AFD3737E-BDA0-4F9C-8BE6-52976284CDD9 - 58ed4cb211440db7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarDetail(carId: Swift.Int) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1109"
+                  endingLineNumber = "1109"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "AFD3737E-BDA0-4F9C-8BE6-52976284CDD9 - 58ed4cb211440db7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarDetail(carId: Swift.Int) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1109"
+                  endingLineNumber = "1109"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C00B85D-C986-41DF-BE0B-E5B523C0EE11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1119"
+            endingLineNumber = "1119"
+            landmarkName = "getCarDetailsCarListing(carId:carDetail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90C1FDDF-A080-49BF-8A61-976281E82C84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1131"
+            endingLineNumber = "1131"
+            landmarkName = "getCarDetailsCarListing(carId:carDetail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21B953BC-961D-4628-9F89-B65D6B7A12B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1133"
+            endingLineNumber = "1133"
+            landmarkName = "getCarDetailsCarListing(carId:carDetail:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "21B953BC-961D-4628-9F89-B65D6B7A12B7 - b0455494e8bfc960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailsSimilarListings, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarDetailsCarListing(carId: Swift.Int, carDetail: Horizon_Auto.CarDetailModel) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1133"
+                  endingLineNumber = "1133"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "21B953BC-961D-4628-9F89-B65D6B7A12B7 - b0455494e8bfc960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailsSimilarListings, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarDetailsCarListing(carId: Swift.Int, carDetail: Horizon_Auto.CarDetailModel) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1133"
+                  endingLineNumber = "1133"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B0B32B0-2533-4697-85E0-5ED8F671F86F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1146"
+            endingLineNumber = "1146"
+            landmarkName = "getCarGraph(carId:carDetail:carSimilarListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BDDA9CF-5059-4F0E-8F6D-A51751F42509"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1155"
+            endingLineNumber = "1155"
+            landmarkName = "getCarGraph(carId:carDetail:carSimilarListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF492125-8562-4CB8-BDA4-F86A1C555130"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1169"
+            endingLineNumber = "1169"
+            landmarkName = "getCarGraph(carId:carDetail:carSimilarListing:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF492125-8562-4CB8-BDA4-F86A1C555130 - 16dfb6e2b8274746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailGraphModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarGraph(carId: Swift.Int, carDetail: Horizon_Auto.CarDetailModel, carSimilarListing: Horizon_Auto.CarDetailsSimilarListings) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1169"
+                  endingLineNumber = "1169"
+                  offsetFromSymbolStart = "6336">
+               </Location>
+               <Location
+                  uuid = "CF492125-8562-4CB8-BDA4-F86A1C555130 - 16dfb6e2b8274746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Horizon_Auto.CarDetailGraphModel, Swift.Error&gt;) -&gt; () in Horizon_Auto.ModelAnalysisViewController.getCarGraph(carId: Swift.Int, carDetail: Horizon_Auto.CarDetailModel, carSimilarListing: Horizon_Auto.CarDetailsSimilarListings) -&gt; ()"
+                  moduleName = "Horizon Auto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umeryasin/Desktop/CarBois/CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1169"
+                  endingLineNumber = "1169"
+                  offsetFromSymbolStart = "6512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F0E7CC1-DB56-4CAF-B7BA-6842062FCEA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1476"
+            endingLineNumber = "1476"
+            landmarkName = "callCarDetailApi(uuid:isfromWhichListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6C0997E-3710-4FE3-8A44-A7B1D5925DE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1481"
+            endingLineNumber = "1481"
+            landmarkName = "callCarDetailApi(uuid:isfromWhichListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86210A3A-EBD6-44C2-90EB-E48E4CA52B63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1483"
+            endingLineNumber = "1483"
+            landmarkName = "callCarDetailApi(uuid:isfromWhichListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EB6E575-53BD-4530-8858-ED8F5A62E840"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1496"
+            endingLineNumber = "1496"
+            landmarkName = "callCarDetailListing(uuid:carDetailed:isfromWhichListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "671DADDC-BEAD-4241-92F0-8D4C3F1B5EAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1499"
+            endingLineNumber = "1499"
+            landmarkName = "callCarDetailListing(uuid:carDetailed:isfromWhichListing:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C782A180-3DE3-4C11-A77C-54CB30CF1FDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1515"
+            endingLineNumber = "1515"
+            landmarkName = "callCarDetailGraphAPI(carDetails:cardetailListing:isfromWhichListing:uuid:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3D1D648-27AC-4620-AC69-2A43CBF55E9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1525"
+            endingLineNumber = "1525"
+            landmarkName = "callCarDetailGraphAPI(carDetails:cardetailListing:isfromWhichListing:uuid:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74D13B2E-7096-4687-AFDF-E62B9FD5764D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarBois/Controllers/ModelAnalysis/ModelAnalysisViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1356"
+            endingLineNumber = "1356"
+            landmarkName = "showModelAnalysis()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

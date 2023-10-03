@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MarqueeCell" id="gTV-IL-0wX" customClass="MarqueeCell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="52"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="52"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aston Martin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qd-1r-9a9">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="14.666666666666666"/>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                        <color key="textColor" red="0.41176470588235292" green="0.42352941176470588" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vantage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAq-ml-648">
+                        <rect key="frame" x="0.0" y="22.666666666666664" width="62.333333333333336" height="19.666666666666664"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="d4L-CC-wyb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 135,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqE-iA-Yyn">
+                        <rect key="frame" x="66.333333333333329" y="22.666666666666664" width="75.999999999999986" height="19.666666666666664"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="0jr-bo-M85"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-5,420% (8.05%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iK-L9-218">
+                        <rect key="frame" x="146.33333333333334" y="25.333333333333332" width="95" height="14.666666666666668"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="31" id="FQu-l1-iEd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                        <color key="textColor" systemColor="systemRedColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5Qd-1r-9a9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3po-la-CWE"/>
+                <constraint firstAttribute="trailing" secondItem="5Qd-1r-9a9" secondAttribute="trailing" id="5cw-PX-D1J"/>
+                <constraint firstItem="FAq-ml-648" firstAttribute="top" secondItem="5Qd-1r-9a9" secondAttribute="bottom" constant="8" id="PZk-gQ-NJe"/>
+                <constraint firstItem="2iK-L9-218" firstAttribute="centerY" secondItem="UqE-iA-Yyn" secondAttribute="centerY" id="X3Z-zj-DRU"/>
+                <constraint firstItem="UqE-iA-Yyn" firstAttribute="centerY" secondItem="FAq-ml-648" secondAttribute="centerY" id="ein-nO-uSV"/>
+                <constraint firstItem="5Qd-1r-9a9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fIb-o3-dVs"/>
+                <constraint firstItem="2iK-L9-218" firstAttribute="leading" secondItem="UqE-iA-Yyn" secondAttribute="trailing" constant="4" id="fmh-nC-Htf"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2iK-L9-218" secondAttribute="trailing" constant="8" id="mBH-4p-2gm"/>
+                <constraint firstItem="UqE-iA-Yyn" firstAttribute="leading" secondItem="FAq-ml-648" secondAttribute="trailing" constant="4" id="uVn-M7-Hk2"/>
+                <constraint firstItem="FAq-ml-648" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="y2V-N0-tMb"/>
+            </constraints>
+            <size key="customSize" width="377" height="52"/>
+            <connections>
+                <outlet property="carIncordeclbl" destination="2iK-L9-218" id="i9n-MF-8eM"/>
+                <outlet property="carMakelbl" destination="FAq-ml-648" id="us5-Bv-Gcd"/>
+                <outlet property="carModellbl" destination="5Qd-1r-9a9" id="9ll-Uj-z74"/>
+                <outlet property="carPriceLbl" destination="UqE-iA-Yyn" id="i3R-P3-2yt"/>
+            </connections>
+            <point key="canvasLocation" x="387.02290076335879" y="20.422535211267608"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

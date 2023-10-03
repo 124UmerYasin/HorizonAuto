@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="inter_semi_bold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="searchWantToBuyAndSell" id="gTV-IL-0wX" customClass="searchWantToBuyAndSell" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="469" height="166"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="469" height="166"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j09-AM-Lcn">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="166"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oops" translatesAutoresizingMaskIntoConstraints="NO" id="qCu-oi-Cix">
+                                <rect key="frame" x="217" y="32" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="17a-QG-eYv"/>
+                                    <constraint firstAttribute="width" constant="35" id="hNh-oj-WO8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uh-oh...  There are no similar cars available." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoh-ww-PQO">
+                                <rect key="frame" x="24" y="79" width="421" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the search above to view live for sale listing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wN-qJ-Juz">
+                                <rect key="frame" x="24" y="108" width="421" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qCu-oi-Cix" firstAttribute="centerX" secondItem="j09-AM-Lcn" secondAttribute="centerX" id="5ND-Ep-s7V"/>
+                            <constraint firstItem="aoh-ww-PQO" firstAttribute="top" secondItem="qCu-oi-Cix" secondAttribute="bottom" constant="12" id="7n0-5a-MIu"/>
+                            <constraint firstItem="qCu-oi-Cix" firstAttribute="top" secondItem="j09-AM-Lcn" secondAttribute="top" constant="32" id="CS6-F9-95R"/>
+                            <constraint firstAttribute="trailing" secondItem="6wN-qJ-Juz" secondAttribute="trailing" constant="24" id="Ed8-Ji-xyC"/>
+                            <constraint firstAttribute="trailing" secondItem="aoh-ww-PQO" secondAttribute="trailing" constant="24" id="kHd-cb-Qq9"/>
+                            <constraint firstItem="aoh-ww-PQO" firstAttribute="leading" secondItem="j09-AM-Lcn" secondAttribute="leading" constant="24" id="lde-J8-T0a"/>
+                            <constraint firstItem="6wN-qJ-Juz" firstAttribute="leading" secondItem="j09-AM-Lcn" secondAttribute="leading" constant="24" id="paL-Tm-ZUO"/>
+                            <constraint firstItem="6wN-qJ-Juz" firstAttribute="top" secondItem="aoh-ww-PQO" secondAttribute="bottom" constant="12" id="vIv-vc-juG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="j09-AM-Lcn" secondAttribute="trailing" id="14e-Gp-KvH"/>
+                <constraint firstItem="j09-AM-Lcn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RwL-9h-r1U"/>
+                <constraint firstAttribute="bottom" secondItem="j09-AM-Lcn" secondAttribute="bottom" id="l9V-ng-Wkt"/>
+                <constraint firstItem="j09-AM-Lcn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vBq-Lu-4La"/>
+            </constraints>
+            <size key="customSize" width="469" height="166"/>
+            <connections>
+                <outlet property="lbl" destination="6wN-qJ-Juz" id="lc2-tt-C3K"/>
+                <outlet property="outerView" destination="j09-AM-Lcn" id="1SY-Dv-kBA"/>
+            </connections>
+            <point key="canvasLocation" x="296.94656488549617" y="61.267605633802823"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="oops" width="15" height="15"/>
+    </resources>
+</document>

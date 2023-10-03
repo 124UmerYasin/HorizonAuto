@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sora_regular.ttf">
+            <string>Sora-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarDetailCellone" rowHeight="123" id="KGk-i7-Jjw" customClass="CarDetailCellone" customModule="Horizon_Auto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="263"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="263"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKX-V6-ylT">
+                        <rect key="frame" x="4" y="1" width="163.5" height="125"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listing Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYK-pt-0q8">
+                                <rect key="frame" x="12" y="12" width="143.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="uQq-Gt-Nle"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                <color key="textColor" red="0.23529411764705882" green="0.63137254901960782" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auction or Sale" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob4-5N-Ed2">
+                                <rect key="frame" x="12" y="40" width="143.5" height="15.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="ucc-aK-pV9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ob4-5N-Ed2" secondAttribute="bottom" constant="4" id="99i-XR-9Yb"/>
+                            <constraint firstItem="uYK-pt-0q8" firstAttribute="top" secondItem="gKX-V6-ylT" secondAttribute="top" constant="12" id="9dn-Ht-edZ"/>
+                            <constraint firstItem="Ob4-5N-Ed2" firstAttribute="top" secondItem="uYK-pt-0q8" secondAttribute="bottom" constant="12" id="Bgd-0S-fmv"/>
+                            <constraint firstAttribute="trailing" secondItem="uYK-pt-0q8" secondAttribute="trailing" constant="8" id="UBv-aH-Gwr"/>
+                            <constraint firstItem="Ob4-5N-Ed2" firstAttribute="leading" secondItem="gKX-V6-ylT" secondAttribute="leading" constant="12" id="V9R-JM-yg5"/>
+                            <constraint firstItem="uYK-pt-0q8" firstAttribute="leading" secondItem="gKX-V6-ylT" secondAttribute="leading" constant="12" id="Wxv-cZ-6De"/>
+                            <constraint firstAttribute="trailing" secondItem="Ob4-5N-Ed2" secondAttribute="trailing" constant="8" id="goK-Su-6X7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jy7-Te-G2n">
+                        <rect key="frame" x="196" y="134" width="209" height="125"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selling Dealer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiV-E5-PU9">
+                                <rect key="frame" x="12" y="12" width="189" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="5Tf-KQ-Apr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                <color key="textColor" red="0.23529411759999999" green="0.63137254899999995" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQz-Xq-udK">
+                                <rect key="frame" x="12" y="40" width="189" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="8" id="o7g-VX-loK"/>
+                                </constraints>
+                                <string key="text">Formula One Imports 
+Charlotte, NC</string>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIk-0l-hUl">
+                                <rect key="frame" x="12" y="79.5" width="189" height="30.5"/>
+                                <string key="text">Formula One Imports 
+Charlotte, NC</string>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                <color key="textColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OQz-Xq-udK" firstAttribute="leading" secondItem="jy7-Te-G2n" secondAttribute="leading" constant="12" id="2lk-J8-Xul"/>
+                            <constraint firstItem="OQz-Xq-udK" firstAttribute="top" secondItem="YiV-E5-PU9" secondAttribute="bottom" constant="12" id="7qe-Oe-wBe"/>
+                            <constraint firstItem="WIk-0l-hUl" firstAttribute="leading" secondItem="jy7-Te-G2n" secondAttribute="leading" constant="12" id="CSj-La-Nwl"/>
+                            <constraint firstAttribute="trailing" secondItem="WIk-0l-hUl" secondAttribute="trailing" constant="8" id="Faf-Jt-Yjd"/>
+                            <constraint firstAttribute="trailing" secondItem="OQz-Xq-udK" secondAttribute="trailing" constant="8" id="OwI-Bq-7Fm"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WIk-0l-hUl" secondAttribute="bottom" constant="4" id="SEd-jt-QjS"/>
+                            <constraint firstItem="YiV-E5-PU9" firstAttribute="leading" secondItem="jy7-Te-G2n" secondAttribute="leading" constant="12" id="U9Z-i8-cIJ"/>
+                            <constraint firstItem="WIk-0l-hUl" firstAttribute="top" secondItem="OQz-Xq-udK" secondAttribute="bottom" constant="4" id="XOs-Yt-W3Y"/>
+                            <constraint firstAttribute="trailing" secondItem="YiV-E5-PU9" secondAttribute="trailing" constant="8" id="pjD-gm-yYH"/>
+                            <constraint firstItem="YiV-E5-PU9" firstAttribute="top" secondItem="jy7-Te-G2n" secondAttribute="top" constant="12" id="zfg-uX-DTU"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nEz-Jo-6jy">
+                        <rect key="frame" x="4" y="134" width="184" height="125"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjL-mT-bO5">
+                                <rect key="frame" x="12" y="12" width="164" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="JwW-Sh-gfZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                <color key="textColor" red="0.23529411759999999" green="0.63137254899999995" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAJDZ5FE3LCK64888" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GX9-Iz-cbM">
+                                <rect key="frame" x="12" y="40" width="164" height="15.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="PMp-e0-ktD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GX9-Iz-cbM" firstAttribute="leading" secondItem="nEz-Jo-6jy" secondAttribute="leading" constant="12" id="2kC-Qk-HWf"/>
+                            <constraint firstAttribute="trailing" secondItem="GX9-Iz-cbM" secondAttribute="trailing" constant="8" id="3LR-Yf-w7b"/>
+                            <constraint firstItem="qjL-mT-bO5" firstAttribute="top" secondItem="nEz-Jo-6jy" secondAttribute="top" constant="12" id="4Rh-yG-4It"/>
+                            <constraint firstItem="GX9-Iz-cbM" firstAttribute="top" secondItem="qjL-mT-bO5" secondAttribute="bottom" constant="12" id="Fps-5b-C04"/>
+                            <constraint firstAttribute="trailing" secondItem="qjL-mT-bO5" secondAttribute="trailing" constant="8" id="GRL-pZ-yur"/>
+                            <constraint firstItem="qjL-mT-bO5" firstAttribute="leading" secondItem="nEz-Jo-6jy" secondAttribute="leading" constant="12" id="tKU-ES-nsh"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAg-tb-YMv">
+                        <rect key="frame" x="175.5" y="1" width="229.5" height="125"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="4dh-ig-qTl">
+                                <rect key="frame" x="8" y="8" width="213.5" height="109"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auction Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bim-A3-FSC">
+                                        <rect key="frame" x="0.0" y="0.0" width="213.5" height="18"/>
+                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                        <color key="textColor" red="0.23529411759999999" green="0.63137254899999995" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBs-dr-POe">
+                                        <rect key="frame" x="0.0" y="22" width="213.5" height="45.5"/>
+                                        <string key="text">Carbon Ceramic Brakes,Bucket Seats
+Deviated Stitching,PTS Color</string>
+                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mileage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4Q-kf-mhK">
+                                        <rect key="frame" x="0.0" y="71.5" width="213.5" height="18"/>
+                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                        <color key="textColor" red="0.21960784310000001" green="0.63529411759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf3-GW-EI4">
+                                        <rect key="frame" x="0.0" y="93.5" width="213.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4dh-ig-qTl" secondAttribute="trailing" constant="8" id="BIe-cq-7Ps"/>
+                            <constraint firstAttribute="bottom" secondItem="4dh-ig-qTl" secondAttribute="bottom" constant="8" id="cda-VZ-zQm"/>
+                            <constraint firstItem="4dh-ig-qTl" firstAttribute="top" secondItem="nAg-tb-YMv" secondAttribute="top" constant="8" id="dBu-Mi-gRV"/>
+                            <constraint firstItem="4dh-ig-qTl" firstAttribute="leading" secondItem="nAg-tb-YMv" secondAttribute="leading" constant="8" id="xqM-Ru-vcC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jy7-Te-G2n" secondAttribute="trailing" constant="4" id="2dU-qz-w9X"/>
+                    <constraint firstItem="jy7-Te-G2n" firstAttribute="leading" secondItem="nEz-Jo-6jy" secondAttribute="trailing" constant="8" id="4XC-Ch-h3e"/>
+                    <constraint firstItem="jy7-Te-G2n" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.475" id="7ez-K8-og5"/>
+                    <constraint firstItem="jy7-Te-G2n" firstAttribute="top" secondItem="nAg-tb-YMv" secondAttribute="bottom" constant="8" id="87b-qu-Tc4"/>
+                    <constraint firstItem="gKX-V6-ylT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="C2J-LX-SKp"/>
+                    <constraint firstItem="nEz-Jo-6jy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="Cm0-7O-rrF"/>
+                    <constraint firstItem="gKX-V6-ylT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="HK2-Ji-K5A"/>
+                    <constraint firstItem="nEz-Jo-6jy" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.475" id="HoQ-fG-Rwj"/>
+                    <constraint firstItem="nAg-tb-YMv" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.475" id="TED-1o-Kmf"/>
+                    <constraint firstAttribute="trailing" secondItem="nAg-tb-YMv" secondAttribute="trailing" constant="4" id="fBX-q3-YO1"/>
+                    <constraint firstItem="nEz-Jo-6jy" firstAttribute="top" secondItem="gKX-V6-ylT" secondAttribute="bottom" constant="8" id="irA-AY-yzB"/>
+                    <constraint firstItem="nAg-tb-YMv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="mLq-90-eJQ"/>
+                    <constraint firstItem="nAg-tb-YMv" firstAttribute="leading" secondItem="gKX-V6-ylT" secondAttribute="trailing" constant="8" id="mdu-AU-ZsS"/>
+                    <constraint firstItem="gKX-V6-ylT" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.475" id="thb-lm-auW"/>
+                    <constraint firstItem="gKX-V6-ylT" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="yvO-gg-tDG"/>
+                    <constraint firstItem="nEz-Jo-6jy" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.45" id="zjD-qE-sXY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aurRes" destination="Bim-A3-FSC" id="nGf-KW-3yV"/>
+                <outlet property="keyOptions" destination="EBs-dr-POe" id="1Jb-qZ-cHG"/>
+                <outlet property="listingType" destination="Ob4-5N-Ed2" id="fyA-fa-SsL"/>
+                <outlet property="milage" destination="qf3-GW-EI4" id="Rm0-HL-Qj5"/>
+                <outlet property="selleingDealerName" destination="OQz-Xq-udK" id="5Je-8t-jY9"/>
+                <outlet property="sellingDealerLocation" destination="WIk-0l-hUl" id="6Ry-Gp-ryR"/>
+                <outlet property="v1" destination="gKX-V6-ylT" id="huM-hb-nWW"/>
+                <outlet property="v2" destination="nAg-tb-YMv" id="9aV-to-y3q"/>
+                <outlet property="v3" destination="nEz-Jo-6jy" id="fo1-YZ-CHT"/>
+                <outlet property="v4" destination="jy7-Te-G2n" id="zDy-Sf-OLW"/>
+                <outlet property="vin" destination="GX9-Iz-cbM" id="Aqd-ky-3N1"/>
+            </connections>
+            <point key="canvasLocation" x="-332.60869565217394" y="26.450892857142858"/>
+        </tableViewCell>
+    </objects>
+</document>
